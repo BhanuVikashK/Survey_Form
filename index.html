@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveyform.css"/>
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+    <form class="sform" autocomplete="on">
+        <div >
+            <h1 class="head1">Survey Form</h1>
+            <p class="para1"> Fill up the form with all the required fields:</p>
+        </div>
+        <div class="name">
+            <label for="fname">First name</label> <br/>
+            <input class="inputtype" type="text" id="fname" name="fname" placeholder="Bruce" autofocus autocomplete="name" required>
+         </div>
+         <div class="name">
+            <label for="lname">Last name</label> <br/>
+            <input class="inputtype" type="text" id="lname" name="lname" placeholder="Wayne" required>
+        </div> 
+    
+        <div class="mailid">
+        <label for="email">Enter your Email</label> <br/>
+        <input class="inputtype" type="email" id="email" name="email" placeholder="abc@xyz.com" required> 
+        </div>
+ 
+        <div class="phonenumber">
+            <label  for="contactnumber">Contact Number</label>
+            <br/>
+            <input class="inputtype" type="tel" id="contactnumber" required name="contactnumber" placeholder="ex:- 9876543210" pattern="[6-9]{1}[0-9]{9}" >
+        </div>
+
+        <div class="estatus">
+            <label for="wstatus">Employment Status</label> <br/>
+            <select class="inputtype" id="wstatus" name="estatus" size="0" required >
+                <option  value="Working">Working</option>
+                <option  value="Fresher">Fresher</option>
+                <option  value="Student">Student</option>
+            </select>
+        </div>
+ 
+        <div class="genderdiv">
+            <h1 class="gender"  >Gender</h1>
+            <div class="radios">
+                <input type="radio" id="male" name="gender" value="Male" checked/><label for="male">Male</label> 
+                <input type="radio" id="female" name="gender" value="Female" /><label for="female">Female</label>
+            </div> 
+        </div>
+ 
+        <div class="dob">
+            <label for="date">D.O.B</label> <br/>
+            <input class="inputtype" type="date" id="date" name="date" />
+        </div>
+ 
+        <div class="addafile">
+            <label for="upload">Upload any File</label> <br/>
+            <input class="inputtype2" type="file" id="upload" name="upload" required/>
+        </div>
+ 
+        <div class="about_yourself">
+            <label for="description">About You</label><br/>
+            <input required class="inputtype3" placeholder="Describe Yourself in few lines.."  type="textarea" id="description" name="description" />
+        </div>
+ 
+        <div class="submit">
+            <input class="inputtype" type="submit" value="Submit"> 
+            <input class="inputtype" type="reset">
+        </div>
+ 
+    </form>
+</div>
+</body>
+</html>
