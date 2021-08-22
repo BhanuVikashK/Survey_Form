@@ -1,0 +1,164 @@
+.container{
+    
+    background-color: antiquewhite;
+    background-size:cover;
+    height: 100%;
+    border-radius: 15px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.inputtype{
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-style:solid;
+    padding:5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.inputtype2{
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-style:groove;
+    padding:20px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: white;
+    box-shadow: none;
+    border-color: white;
+}
+
+.inputtype3{
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-style:solid;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: left;
+    height: 100px;
+    width: 350px;
+    color:black;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: start;
+}
+
+.sform{
+
+    text-align: left;
+    padding:0px;
+}
+.head1{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    color:black;
+    padding-bottom: 15px;
+    background-color: slateblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.para1{
+    font-family:sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.name{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.mailid{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.phonenumber{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    padding-bottom: 10px;
+    margin-left: 10px; 
+}
+
+.estatus{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    padding-bottom: 0px;
+    margin-left: 10px;
+}
+.gender{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.radios{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.genderdiv{
+    margin-left: 10px;
+    padding-bottom:15px;
+    color:black;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+.dob{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    color:black;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.addafile{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    color:black;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.about_yourself{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    color:black;
+    margin-left: 10px;
+    padding-bottom: 12px;
+}
+.submit{
+    margin-left: 10px;
+    padding-bottom: 12px;
+    
+}
